@@ -15,7 +15,7 @@ body {
     border-radius: 25px;
     box-shadow: 5px 5px 0 0 black;
 
-    background-image: url("/images/blackcat.jpg");
+    background-image: url("../images/blackcat.jpg");
     background-position: right top;
     background-repeat: repeat-y;
     background-attachment: fixed;
@@ -74,7 +74,7 @@ nav {
 }
 
 .contact {
-    margin: 2.5em 2em 0em 2em;
+    margin: 1.5em 2em 0em 2em;
     border: 5px dotted blue;
     border-radius: 20px;
     box-shadow: 3px 3px 4px 4px red;
