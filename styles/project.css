@@ -61,6 +61,11 @@ text-indent: 30px;
 
 }
 
+header{
+    border-bottom: 2px solid marron;
+    margin-bottom: 1em;
+}
+
 
 .shadow{
 
