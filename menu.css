@@ -1,0 +1,67 @@
+nav {
+    background-color: blue;
+    text-align: center;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu li a {
+    display: inline-block;
+    width: 120px;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-right: 1px solid white;
+}
+
+.menu li a:hover {
+    background-color: darkblue;
+}
+
+body {
+    font-family: Times "New Roman", serif;
+    margin: 0;
+    background-color: #eee;
+}
+
+article {
+    width: 90%;
+    margin: 20px auto;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+aside {
+    width: 90%;
+    margin: 20px auto;
+}
+
+aside ol {
+    list-style-type: upper-roman;
+}
+
+aside ul {
+    list-style-type: square;
+}
+
+body::after {
+    content: "";
+    display: table;
+    clear: both;
+}
