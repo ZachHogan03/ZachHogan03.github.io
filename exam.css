@@ -8,29 +8,6 @@ body {
     background-attachment: fixed;
 }
 
-body::before {
-    content: "";
-    position: fixed;
-    top: 0;
-    right: 0;
-
-    width: 220px;
-    height: 100%;
-
-    background-image: url("images/SHSUBlockLogo.png");
-
-    background-repeat: repeat;
-    background-size: 140px 200px;
-
-    background-position: right 20px top;
-
-    transform: rotate(45deg);
-    transform-origin: top right;
-
-    opacity: 0.3;
-
-    z-index: -1;
-}
 
 .nav-bar {
     list-style: none;
