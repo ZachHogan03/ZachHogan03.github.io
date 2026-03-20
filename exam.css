@@ -12,18 +12,23 @@ body::before {
     content: "";
     position: fixed;
     top: 0;
-    right: 0;              /* anchor to right side */
-    width: 200px;          /* controls how wide the column is */
+    right: 0;
+
+    width: 220px;
     height: 100%;
 
     background-image: url("images/SHSUBlockLogo.png");
-    background-size: 120px;
-    background-repeat: repeat-y;   /* ONLY vertical repeat */
+
+    background-repeat: repeat;
+    background-size: 140px 200px;
+
+    background-position: right 20px top;
 
     transform: rotate(45deg);
-    transform-origin: center;
+    transform-origin: top right;
 
-    opacity: 0.15;
+    opacity: 0.3;
+
     z-index: -1;
 }
 
