@@ -16,7 +16,7 @@ body::before {
     width: 200px;          /* controls how wide the column is */
     height: 100%;
 
-    background-image: url("SHSUBlockLogo.png");
+    background-image: url("images/SHSUBlockLogo.png");
     background-size: 120px;
     background-repeat: repeat-y;   /* ONLY vertical repeat */
 
