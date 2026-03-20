@@ -3,10 +3,27 @@ body {
     margin: 15px auto;
     font-family: Arial;
 
-    background-image: url("images/SHSUBlockLogo.png");
-    background-repeat: repeat-y;
-    background-position: right top;
+    background-size: 150px;
+    background-repeat: repeat;
     background-attachment: fixed;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    background-image: url("SHSUBlockLogo.png");
+    background-size: 120px;
+    background-repeat: repeat;
+
+    transform: rotate(45deg);   /* THIS creates diamond effect */
+    opacity: 0.15;              /* makes it subtle like screenshot */
+
+    z-index: -1;                /* puts it behind everything */
 }
 
 .nav-bar {
