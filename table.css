@@ -41,35 +41,61 @@ table.second thead tr:first-child {
     border-bottom: 2px solid purple;
 }
 
+/* TABLE 3 */
 table.third {
     border-collapse: collapse;
-    border: 2px solid orangered;
     width: 60%;
 }
 
-table.third th, table.third td {
-    border: 2px solid orangered;
+/* Header styling (light green) */
+table.third th {
+    background-color: lightgreen;
     padding: 0.7em;
 }
 
-table.third th {
-    background-color: lightcoral;
+/* Cell padding */
+table.third td {
+    padding: 0.7em;
 }
 
-table.thid td.number {
-    vertical-align: top;
+/* Vertical lines between columns ONLY */
+table.third th, 
+table.third td {
+    border-left: 2px solid orangered;
+    border-right: 2px solid orangered;
 }
 
+/* Remove outer left/right borders */
+table.third tr > *:first-child {
+    border-left: none;
+}
+
+table.third tr > *:last-child {
+    border-right: none;
+}
+
+/* Top border of entire table */
 table.third thead tr:first-child {
     border-top: 2px solid orangered;
 }
 
-table.third thead tr:nth-child {
+/* Line under header row */
+table.third thead tr:last-child {
     border-bottom: 2px solid orangered;
+}
+
+/* ONLY bottom border on final row */
+table.third tbody tr {
+    border-bottom: none;
 }
 
 table.third tbody tr:last-child {
     border-bottom: 2px solid orangered;
+}
+
+/* Align category numbers to TOP */
+table.third td.number {
+    vertical-align: top;
 }
 
 @media only screen and (max-width:425px) {
