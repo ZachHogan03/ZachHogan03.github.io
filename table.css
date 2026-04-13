@@ -41,54 +41,49 @@ table.second thead tr:first-child {
     border-bottom: 2px solid purple;
 }
 
-/* TABLE 3 */
-/* TABLE 3 */
 table.third {
     border-collapse: collapse;
     width: 60%;
 }
 
-/* Header styling (light green) */
+
 table.third th {
     background-color: lightgreen;
     padding: 0.7em;
 }
 
-/* Cell padding */
 table.third td {
     padding: 0.7em;
 }
 
-/* Remove ALL vertical lines */
 table.third th,
 table.third td {
     border-left: none;
     border-right: none;
 }
 
-/* Top border of entire table */
 table.third thead tr:first-child {
     border-top: 2px solid orangered;
-    border-bottom: 2px solid orangered; /* <-- THIS is the missing line */
+    border-bottom: 2px solid orangered; 
 }
 
-/* Line under column headers */
 table.third thead tr:last-child {
     border-bottom: 2px solid orangered;
 }
 
-/* No borders on body rows */
 table.third tbody tr {
     border-bottom: none;
 }
 
-/* Only bottom border on final row */
 table.third tbody tr:last-child {
     border-bottom: 2px solid orangered;
 }
 
-/* Align category numbers to TOP */
 table.third td.number {
+    vertical-align: top;
+}
+
+table.third td.salary {
     vertical-align: top;
 }
 
