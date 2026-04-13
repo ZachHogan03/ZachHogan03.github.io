@@ -169,3 +169,8 @@ footer {
         font-size: 0.6em;
     }
 }
+
+.top-nav {
+    position: relative;
+    z-index: 1000;
+}
